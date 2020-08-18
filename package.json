@@ -7,6 +7,9 @@
   "repository": "git@github.com:skyverge/zustand-middleware.git",
   "author": "Wes Cole <wesley.cole87@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "postinstall": "preconstruct dev"
+  },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
